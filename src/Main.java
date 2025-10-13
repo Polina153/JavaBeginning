@@ -36,18 +36,33 @@ public class Main {
         do {
             System.out.println("Hello!");
         } while (a > 0);*/
-
       /*  int summ = 0;
         for (int a = 0; a <= 100; a++) {
             summ += a;
         }
 
         System.out.println("Сумма всех чисел от 1 до 100 (включительно) равна " + summ);*/
-
         //calculateSecondsFromUser();
         //switchMethod();
         //ifMethod();
         //conditioning();
+
+        Cat cat = new Cat();
+        Cat cat1 = new Cat("Musya", 2, 4, false);
+        cat.voice();
+        cat.printInfo();
+        cat1.voice();
+        cat1.printInfo();
+        Dog dog = new Dog("Tobik", 10, 4, true);
+        dog.voice();
+        dog.printInfo();
+        dog.swim();
+        System.out.println();
+
+        /*System.out.println(animal1.name);
+        System.out.println(animal1.age);
+        System.out.println(animal1.legs);*/
+
 
     }
 
@@ -103,7 +118,6 @@ public class Main {
                 System.out.println("введено число НЕ от 1 до 5!");
         }
     }
-
 
     private static void calculateSecondsFromUser() {
         System.out.println("Enter amount of seconds: ");
