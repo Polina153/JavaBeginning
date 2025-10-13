@@ -57,7 +57,7 @@ public class Main {
         dog.voice();
         dog.printInfo();
         dog.swim();
-        System.out.println();
+        System.out.println(Animal.amountOfAnimals);
 
         /*System.out.println(animal1.name);
         System.out.println(animal1.age);

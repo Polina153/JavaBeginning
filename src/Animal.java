@@ -4,11 +4,14 @@ abstract class Animal {
     int legs;
     boolean tail;
 
+    static int amountOfAnimals;
+
     public Animal(String name, int age, int legs, boolean tail) {
         this.name = name;
         this.age = age;
         this.legs = legs;
         this.tail = tail;
+        amountOfAnimals ++;
     }
 
     void printInfo(){
